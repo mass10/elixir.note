@@ -30,3 +30,32 @@ elixir --version
 http://jeregrine.github.io/elixir-by-example
 
 
+## Installing Phoenix
+
+see http://www.phoenixframework.org/docs/installation
+
+```
+mix local.hex
+mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
+sudo apt-get install nodejs-legacy
+sudo apt-get install npm
+```
+
+## Creating a new Phoenix application project. (default with PostgreSQL)
+
+```
+mix phoenix.new my_first_app
+```
+
+## Creating a new Phoenix application project. (with MySQL)
+
+```
+mix phoenix.new my_first_app --database mysql
+```
+
+## Running
+
+```
+cd my_first_app
+mix phoenix.server
+```
