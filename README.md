@@ -32,6 +32,8 @@ http://jeregrine.github.io/elixir-by-example
 
 ## Installing Phoenix
 
+- Ubuntu 16.04.2 LTS
+
 see http://www.phoenixframework.org/docs/installation
 
 ```
