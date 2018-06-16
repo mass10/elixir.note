@@ -1,8 +1,15 @@
-## about elixir.note
+# about elixir.note
 
-my private note.
+* my private note.
 
-## install
+
+# install on Ubuntu 18 LTS
+
+```
+sudo apt install elixir
+```
+
+# install
 
 see https://elixir-lang.org/install.html#unix-and-unix-like
 
@@ -15,7 +22,7 @@ sudo apt-get install esl-erlang
 sudo apt-get install elixir
 ```
 
-## version
+# version
 
 How to get the installed version of Elixir.
 
@@ -23,14 +30,14 @@ How to get the installed version of Elixir.
 elixir --version
 ```
 
-## Links
+# Links
 
 - Elixir by Example
 
 http://jeregrine.github.io/elixir-by-example
 
 
-## Installing Phoenix
+# Installing Phoenix
 
 - Ubuntu 16.04.2 LTS
 
@@ -43,19 +50,19 @@ sudo apt-get install nodejs-legacy
 sudo apt-get install npm
 ```
 
-## Creating a new Phoenix application project. (default with PostgreSQL)
+# Creating a new Phoenix application project. (default with PostgreSQL)
 
 ```
 mix phoenix.new my_first_app
 ```
 
-## Creating a new Phoenix application project. (with MySQL)
+# Creating a new Phoenix application project. (with MySQL)
 
 ```
 mix phoenix.new my_first_app --database mysql
 ```
 
-## Running
+# Running
 
 ```
 cd my_first_app
