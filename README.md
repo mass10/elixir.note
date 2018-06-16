@@ -68,3 +68,11 @@ mix phoenix.new my_first_app --database mysql
 cd my_first_app
 mix phoenix.server
 ```
+
+# Elixir の REPL
+
+```
+iex
+```
+
+* Ctrl + C で終了
