@@ -1,5 +1,10 @@
 #!/usr/bin/env elixir
 # coding: utf-8
 
-IO.puts "Hello."
+defmodule Main do
+	def main do
+		IO.puts "Hello."
+	end
+end
 
+Main.main
