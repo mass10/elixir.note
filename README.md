@@ -76,3 +76,14 @@ iex
 ```
 
 * Ctrl + C で終了
+
+
+# getting started with mix #####################################
+
+```
+mix new MyApplicationName
+cd MyApplicationName
+mix test
+mix run MyApplicationName.エントリポイントの名前
+```
+
