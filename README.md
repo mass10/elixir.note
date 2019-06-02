@@ -86,3 +86,9 @@ cd MyApplicationName
 mix test
 mix run MyApplicationName.エントリポイントの名前
 ```
+
+# Docker Environment for Elixir (on Ubuntu 18) 2019-06-01
+
+```
+sudo docker run -it elixir bash
+```
